@@ -1,36 +1,42 @@
-![build](https://img.shields.io/badge/build-passing-green)
-![tests](https://img.shields.io/badge/tests-477%20passed%2C%202%20failed-red)
-![version](https://img.shields.io/badge/version-1.0.0-green)
+# 🎄 AdventJS 2021
 
-# 🎄 Katas AdventJS 2021
+## 🎉 Introducción.
 
-## 🎉 Introduction.
+El objetivo de este repositorio es aunar todos los retos propuestos desde [AdventJS](https://adventjs.dev/).
+Toda la documentación se realizará en español debido a que la descripción de las katas están este idioma.
 
-This is a repository to have all the katas related to adventjs together.
+## 🚀 Antes de empezar.
 
-## 🚀 Getting Started.
+Este projecto está dividido en diferentes katas/retos. 
+Cada uno de ellos va a tener un directorio en donde se encontrará la explicación del reto y la solución que hemos desarrollado.
+Para afrontar cada reto haremos pair programing y seguiremos la metodología de [Test-Driven Development (TDD)](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas). 
 
-Basic instructions to run and use the project, here we can link the contributing section where it is explained in depth.
+### ✔️ Pre-requisitos. 
+Algunos requisitos que tienes que tener en cuenta antes de empezar es tener instalado:
 
-### ✔️ Pre-requisites. 
-List of software or other things needed to launch the project and instructions about how to download and install them.
+* [X] npm 
+* [X] yarn
+* [X] tsc
 
-### 🛠 Installation.
-Step by step guide about how to install the project. It is something like a tutorial about the software installation (it could include images, code snippets or screenshots if it is neccessary).
+### 🛠 Instalación.
 
-### ✈️ Running the project. 
-Step by step guide about how to run the project. It is something like a tutorial about the project running (it could include images, code snippets or screenshots if it is neccessary).
+<!--- TODO --->
 
-_To know more about project installation and running see [Getting Started section of contributing document](./docs/CONTRIBUTING.md#getting-started-)._
+_Work in progress_
 
-## 📝 License.
+### ✈️ Lanzando los tests the project. 
 
-_This project is licensed under the license terms of GNU GENERAL PUBLIC LICENSE Version 3 and the license file
- can be found in [LICENSE](./docs/LICENSE) document._ 
+_Work in progress_
 
+## 📝 Licencia.
+
+<!-- _This project is licensed under the license terms of GNU GENERAL PUBLIC LICENSE Version 3 and the license file
+ can be found in [LICENSE](./docs/LICENSE) document._ -->
+
+_Work in progress_
 
 ---
 ---
-Made with ❤️ and ☕ by [Iván Santos](https://github.com/IvanSantosGonz) and [Alexandra Rivero](https://github.com/Alelit4).
+Hecho con ❤️ y ☕ por [Iván Santos](https://github.com/IvanSantosGonz) and [Alexandra Rivero](https://github.com/Alelit4).
 
-Readme template based on [The Good Documentation](https://github.com/IvanSantosGonz/the-good-documentation).
+Readme creado a partir de la template [The Good Documentation](https://github.com/IvanSantosGonz/the-good-documentation).

@@ -1,8 +1,8 @@
-import { Kata } from "./kata";
+import Kata from './kata';
 
-describe("Kata", () => {
-  it("should ", () => {
+describe('Kata', () => {
+  it('should', () => {
     const kata = new Kata();
-    console.log("lerele");
+    console.log('lerele');
   });
 });

@@ -1,1 +1,1 @@
-export class Kata {}
+export default class Kata {}

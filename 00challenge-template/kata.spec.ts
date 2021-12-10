@@ -1,3 +1,3 @@
-describe("Kata", () => {
-  it("should ", () => {});
+describe('Kata', () => {
+  it('should ', () => {});
 });

@@ -9,7 +9,6 @@ module.exports = {
         'airbnb-base',
         'airbnb-typescript/base',
         'plugin:@typescript-eslint/recommended',
-        'plugin:prettier/recommended',
     ],
     root: true,
     env: {
@@ -20,10 +19,6 @@ module.exports = {
     rules: {
         'max-len': ['error', 120, 2],
         quotes: ['error', 'single', { avoidEscape: true }],
-        'import/order': ['error'],
-
-        'import/prefer-default-export': 'off',
-
         '@typescript-eslint/naming-convention': [
             'error',
             {

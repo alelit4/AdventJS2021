@@ -1,9 +1,9 @@
 {
-  "name": "00challenge-template",
+  "name": "reto00-plantilla",
   "version": "0.0.1",
-  "description": "Challenge #0: This is a template",
+  "description": "Reto #0: Esto es una plantilla",
   "main": "index.js",
-  "author": "Iván and Alexandra",
+  "author": "Iván y Alexandra",
   "license": "MIT",
   "private": false,
   "dependencies": {
@@ -13,7 +13,10 @@
     "ts-jest": "^27.1.1"
   },
   "scripts": {
-    "tsc": "tsc",
-    "test": "jest --watchAll"
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "format": "prettier --write \"**/*.ts\" \"**/*.ts\"",
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint \"**/*.ts\" --fix"
   }
 }

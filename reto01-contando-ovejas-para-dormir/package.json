@@ -1,9 +1,9 @@
 {
-  "name": "01challenge-counting-sheep-to-sleep",
+  "name": "reto01-contando-ovejas-para-dormir",
   "version": "1.0.0",
-  "description": "Challenge #1: Counting sheep to sleep",
+  "description": "Reto #1: contando ovejas para dormir",
   "main": "index.js",
-  "author": "Iván and Alexandra",
+  "author": "Iván y Alexandra",
   "license": "MIT",
   "private": false,
   "dependencies": {

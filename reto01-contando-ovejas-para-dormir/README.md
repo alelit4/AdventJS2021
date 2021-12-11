@@ -44,15 +44,15 @@ No cuentes ovejas que sólo tenga una de las letras, debe tener ambas.
 ## 🚀 Empezando.
 
 Para la solución de este reto podrás encontrar toda la solución en el directorio donde 
-encuentras este readme `reto01-contando-ovejas`.
+encuentras este readme `reto01-contando-ovejas-para-dormir`.
 
 ### 🛠️ Instalación. 
 
-Para instalar las dependencias que encontramos en `./reto01-contando-ovejas/package.json`
+Para instalar las dependencias que encontramos en `./reto01-contando-ovejas-para-dormir/package.json`
 tenemos que ejecutar:
 
 ```shell
-cd 01challenge-counting-sheep-to-sleep
+cd reto01-contando-ovejas-para-dormir
 yarn install 
 ```
 

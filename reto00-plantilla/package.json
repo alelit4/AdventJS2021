@@ -1,0 +1,22 @@
+{
+  "name": "reto00-plantilla",
+  "version": "0.0.1",
+  "description": "Reto #0: Esto es una plantilla",
+  "main": "index.js",
+  "author": "Iván y Alexandra",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^4.5.3",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "format": "prettier --write \"**/*.ts\" \"**/*.ts\"",
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint \"**/*.ts\" --fix"
+  }
+}

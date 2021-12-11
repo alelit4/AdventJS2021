@@ -5,7 +5,9 @@
 El objetivo de este repositorio es aunar todos los retos propuestos desde [AdventJS](https://adventjs.dev/).
 Toda la documentación se realizará en español debido a que la descripción de las katas están este idioma.
 
-## 🚀 Antes de empezar.
+🔗[Original adventjs kata link](https://adventjs.dev/challenges/01)
+
+## 🚀 Empezando.
 
 Este projecto está dividido en diferentes katas/retos. 
 Cada uno de ellos va a tener un directorio en donde se encontrará la explicación del reto y la solución que hemos desarrollado.
@@ -18,7 +20,7 @@ Algunos requisitos que tienes que tener en cuenta antes de empezar es tener inst
 * [X] yarn
 * [X] tsc
 
-### 🛠 Instalación.
+### 🛠️ Instalación.
 
 <!--- TODO --->
 
@@ -35,7 +37,7 @@ _Work in progress_
 
 _Work in progress_
 
----
+
 ---
 Hecho con ❤️ y ☕ por [Iván Santos](https://github.com/IvanSantosGonz) and [Alexandra Rivero](https://github.com/Alelit4).
 

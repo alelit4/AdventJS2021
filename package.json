@@ -1,0 +1,32 @@
+{
+  "name": "adventjs2021",
+  "version": "0.0.1",
+  "description": "Retos de AdventJS 2021",
+  "main": "index.js",
+  "author": "Iván y Alexandra",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^4.5.3",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.9.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "format": "prettier --write \"**/*.ts\" \"**/*.ts\"",
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint \"**/*.ts\" --fix"
+  }
+}

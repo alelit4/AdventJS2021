@@ -6,4 +6,3 @@ describe('Kata', () => {
     console.log('lerele');
   });
 });
-

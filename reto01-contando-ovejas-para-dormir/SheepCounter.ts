@@ -1,3 +1,3 @@
-const sheepCounter = (sheep) => undefined;
+const sheepCounter = (sheep) => sheep;
 
 export default sheepCounter;

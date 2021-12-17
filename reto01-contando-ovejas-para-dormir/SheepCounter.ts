@@ -1,7 +1,9 @@
 const sheepCounter = (sheep) => {
   const redSheep = sheep.filter((aSheep) => aSheep.color === 'rojo');
-  const redSheepWithN = redSheep.filter((aRedSheep) => aRedSheep.name.toLowerCase().includes('n'));
-  return redSheepWithN;
+  const redSheepWithNAndA = redSheep.filter((aRedSheep) => {
+    return aRedSheep.name.toLowerCase().includes('n') && aRedSheep.name.toLowerCase().includes('a');
+  });
+  return redSheepWithNAndA;
 };
 
 export default sheepCounter;

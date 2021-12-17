@@ -10,12 +10,6 @@ describe('SheepCounter', () => {
     { name: 'Nnnnnnnn', color: 'rojo' },
   ];
 
-  it('should return all sheep', () => {
-    const filteredSheep = sheepCounter(sheep);
-
-    expect(filteredSheep).toBe(sheep);
-  });
-
   const redSheep = [
     { name: 'Euge', color: 'rojo' },
     { name: 'Navidad', color: 'rojo' },
@@ -27,6 +21,6 @@ describe('SheepCounter', () => {
   it('should return only red sheep', () => {
     const filteredSheep = sheepCounter(sheep);
 
-    expect(filteredSheep).toBe(redSheep);
+    expect(filteredSheep).toStrictEqual(redSheep);
   });
 });

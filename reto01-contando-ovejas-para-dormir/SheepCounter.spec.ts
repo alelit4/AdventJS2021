@@ -10,15 +10,14 @@ describe('SheepCounter', () => {
     { name: 'Nnnnnnnn', color: 'rojo' },
   ];
 
-  const redSheepWithN = [
+  const redSheepWithNAndA = [
     { name: 'Navidad', color: 'rojo' },
     { name: 'Ki Na Ma', color: 'rojo' },
-    { name: 'Nnnnnnnn', color: 'rojo' },
   ];
 
-  it('should return only red sheep and name that contains letter "n"', () => {
+  it('should return only red sheep and name that contains letters "n" and "a"', () => {
     const filteredSheep = sheepCounter(sheep);
 
-    expect(filteredSheep).toStrictEqual(redSheepWithN);
+    expect(filteredSheep).toStrictEqual(redSheepWithNAndA);
   });
 });

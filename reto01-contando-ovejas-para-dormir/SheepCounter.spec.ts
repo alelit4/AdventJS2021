@@ -15,4 +15,18 @@ describe('SheepCounter', () => {
 
     expect(filteredSheep).toBe(sheep);
   });
+
+  const redSheep = [
+    { name: 'Euge', color: 'rojo' },
+    { name: 'Navidad', color: 'rojo' },
+    { name: 'Ki Na Ma', color: 'rojo' },
+    { name: 'AAAAAaaaaa', color: 'rojo' },
+    { name: 'Nnnnnnnn', color: 'rojo' },
+  ];
+
+  it('should return only red sheep', () => {
+    const filteredSheep = sheepCounter(sheep);
+
+    expect(filteredSheep).toBe(redSheep);
+  });
 });
